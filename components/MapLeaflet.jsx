@@ -93,7 +93,7 @@ export default function MapLeaflet({
   return (
     <MapContainer
       center={[startingPoint.lat, startingPoint.lng]}
-      zoom={14}
+      zoom={12}
       style={{ height: "600px", width: "100%" }}
       whenCreated={(map) => map.invalidateSize()}
     >

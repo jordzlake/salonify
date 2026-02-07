@@ -14,15 +14,31 @@ export default function MapView() {
   const [selectedDate, setSelectedDate] = useState(new Date());
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-      <div style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
-        <label>Appointment Date:</label>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "1rem",
+        padding: "0 1rem",
+      }}
+    >
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: "0.5rem 1rem",
+          alignItems: "center",
+        }}
+      >
+        <label style={{ flex: "1 1 100%" }}>Appointment Date:</label>
         <input
           type="date"
           value={selectedDate.toISOString().slice(0, 10)}
           onChange={(e) => setSelectedDate(new Date(e.target.value))}
+          style={{ flex: "1 1 100%" }}
         />
-        <label>Radius (m):</label>
+
+        <label style={{ flex: "1 1 100%" }}>Radius (m):</label>
         <input
           type="range"
           min="100"
@@ -30,16 +46,19 @@ export default function MapView() {
           step="50"
           value={radius}
           onChange={(e) => setRadius(Number(e.target.value))}
+          style={{ flex: "1 1 100%" }}
         />
-        <span>{radius} m</span>
+        <span style={{ flex: "1 1 100%" }}>{radius} m</span>
       </div>
 
-      <MapLeaflet
-        salons={salons}
-        startingPoint={startingPoint}
-        radius={radius}
-        selectedDate={selectedDate}
-      />
+      <div style={{ width: "100%", height: "600px" }}>
+        <MapLeaflet
+          salons={salons}
+          startingPoint={startingPoint}
+          radius={radius}
+          selectedDate={selectedDate}
+        />
+      </div>
     </div>
   );
 }
