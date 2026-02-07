@@ -103,13 +103,13 @@ export default function MapLeaflet({
         position={[startingPoint.lat, startingPoint.lng]}
         icon={houseIcon}
       >
-        <Popup>Your Starting Point</Popup>
+        <Popup>Baby's House</Popup>
       </Marker>
 
       <Circle
         center={[startingPoint.lat, startingPoint.lng]}
         radius={radius}
-        pathOptions={{ color: "blue", fillOpacity: 0.1 }}
+        pathOptions={{ color: "pink", fillOpacity: 0.1 }}
         ref={circleRef}
       />
 

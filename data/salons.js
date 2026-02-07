@@ -13,7 +13,7 @@ export const salons = [
     hours: { opens: "08:00", closes: "22:00" },
     socials: { instagram: null, facebook: null, website: null },
     googleMapsUrl:
-      "https://www.google.com/maps/place/Beautyfix+by+Marissa+Salon+%26+Head+Spa",
+      "https://www.google.com/maps/place/?q=place_id:ChIJaer_YeP_NYwR4FXHJXim86E",
     tags: ["hair", "spa", "women"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -31,7 +31,8 @@ export const salons = [
     openStatus: "closed",
     hours: { opens: "09:00", closes: "18:00" },
     socials: { instagram: null, facebook: null, website: null },
-    googleMapsUrl: "https://www.google.com/maps/place/Antonio+The+Salon",
+    googleMapsUrl:
+      "https://www.google.com/maps/place/?q=place_id:ChIJR7Yzguj5NYwRb7L9MwK-nd4",
     tags: ["hair", "women"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -49,7 +50,8 @@ export const salons = [
     openStatus: "unknown",
     hours: { opens: null, closes: null },
     socials: { instagram: null, facebook: null, website: null },
-    googleMapsUrl: "https://www.google.com/maps/place/Teion%27s+Salon",
+    googleMapsUrl:
+      "https://www.google.com/maps/place/?q=place_id:ChIJ6UobthH5NYwRCmtOtKW3LBI",
     tags: ["hair", "women"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -68,7 +70,7 @@ export const salons = [
     hours: { opens: "08:00", closes: "20:00" },
     socials: { instagram: null, facebook: null, website: null },
     googleMapsUrl:
-      "https://www.google.com/maps/place/Revive+By+Classy%26Fab+Beauty+salon+and+spa",
+      "https://www.google.com/maps/place/?q=place_id:ChIJ-6ZrYnj5NYwR5LM4BzeYpHQ",
     tags: ["hair", "spa"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -87,7 +89,7 @@ export const salons = [
     hours: { opens: "06:00", closes: "18:00" },
     socials: { instagram: null, facebook: null, website: null },
     googleMapsUrl:
-      "https://www.google.com/maps/place/Shelly%E2%80%99s+New+Attitude",
+      "https://www.google.com/maps/place/?q=place_id:ChIJL9fBgzr5NYwR-cT8wloGPiI",
     tags: ["hair"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -106,7 +108,7 @@ export const salons = [
     hours: { opens: "09:00", closes: "18:00" },
     socials: { instagram: null, facebook: null, website: null },
     googleMapsUrl:
-      "https://www.google.com/maps/place/Locsurious+%7C+Microlocks+Salon+Trinidad+%26+Tobago",
+      "https://www.google.com/maps/place/?q=place_id:ChIJUbbq9V75NYwRa2I6Zl_0fuo",
     tags: ["hair", "locs"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -124,11 +126,14 @@ export const salons = [
     openStatus: "closed",
     hours: { opens: "09:00", closes: "18:00" },
     socials: { instagram: null, facebook: null, website: null },
-    googleMapsUrl: "https://www.google.com/maps/place/K%C3%93R+Salon",
+    googleMapsUrl:
+      "https://www.google.com/maps/place/?q=place_id:ChIJ3xAR5Hb5NYwRt294tfbzH-U",
     tags: ["hair"],
     verified: false,
     lastUpdated: "2026-02-06",
   },
+  // ... continue the rest of the salons with the same pattern:
+  // googleMapsUrl: "https://www.google.com/maps/place/?q=place_id:<id>"
   {
     id: "ChIJVYuC_sv2NYwRPIJrz4SJFbg",
     name: "G.A.C Beauty Bar & Luxury Spa",
@@ -143,7 +148,7 @@ export const salons = [
     hours: { opens: "08:30", closes: "20:00" },
     socials: { instagram: null, facebook: null, website: null },
     googleMapsUrl:
-      "https://www.google.com/maps/place/G.A.C+Beauty+Bar+%26+Luxury+Spa",
+      "https://www.google.com/maps/place/?q=place_id:ChIJVYuC_sv2NYwRPIJrz4SJFbg",
     tags: ["hair", "spa"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -163,7 +168,7 @@ export const salons = [
     hours: { opens: "09:00", closes: "18:00" },
     socials: { instagram: null, facebook: null, website: null },
     googleMapsUrl:
-      "https://www.google.com/maps/place/Aryanveda+Spa+%26+Hair+Salon",
+      "https://www.google.com/maps/place/?q=place_id:ChIJ6yCwn5z5NYwRJ8El0rtlrXk",
     tags: ["hair", "spa"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -182,7 +187,7 @@ export const salons = [
     hours: { opens: "08:00", closes: "18:00" },
     socials: { instagram: null, facebook: null, website: null },
     googleMapsUrl:
-      "https://www.google.com/maps/place/The+Braid+Sister+Beauty+Studio",
+      "https://www.google.com/maps/place/?q=place_id:ChIJZagakbn5NYwRtcojzul_rC0",
     tags: ["hair"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -200,7 +205,8 @@ export const salons = [
     openStatus: "closed",
     hours: { opens: "10:00", closes: "18:00" },
     socials: { instagram: null, facebook: null, website: null },
-    googleMapsUrl: "https://www.google.com/maps/place/KrewKutz",
+    googleMapsUrl:
+      "https://www.google.com/maps/place/?q=place_id:ChIJzUzlGKH5NYwRf00SgisZztc",
     tags: ["hair", "barber"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -219,7 +225,7 @@ export const salons = [
     hours: { opens: "09:00", closes: "18:00" },
     socials: { instagram: null, facebook: null, website: null },
     googleMapsUrl:
-      "https://www.google.com/maps/place/Pretty+Healthy+Hair+by+Tia-Lisa",
+      "https://www.google.com/maps/place/?q=place_id:ChIJmcfXxB75NYwRrOW3JvXq-VU",
     tags: ["hair"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -238,7 +244,7 @@ export const salons = [
     hours: { opens: "06:00", closes: "18:00" },
     socials: { instagram: null, facebook: null, website: null },
     googleMapsUrl:
-      "https://www.google.com/maps/place/Lystra%27s+Beauty+Adventure",
+      "https://www.google.com/maps/place/?q=place_id:ChIJhVdfbRbxNYwR0rMBluuzcm4",
     tags: ["nails", "beauty"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -256,7 +262,8 @@ export const salons = [
     openStatus: "closed",
     hours: { opens: "10:00", closes: "18:00" },
     socials: { instagram: null, facebook: null, website: null },
-    googleMapsUrl: "https://www.google.com/maps/place/HBI+Blowdry+Bar",
+    googleMapsUrl:
+      "https://www.google.com/maps/place/?q=place_id:ChIJuW6-s8z5NYwRczmYaleWPm4",
     tags: ["hair", "women"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -275,7 +282,7 @@ export const salons = [
     hours: { opens: "09:00", closes: "18:00" },
     socials: { instagram: null, facebook: null, website: null },
     googleMapsUrl:
-      "https://www.google.com/maps/place/FANDA+Salon,+Spa+and+Cosmetology+School",
+      "https://www.google.com/maps/place/?q=place_id:ChIJnxlEhCD5NYwRvEltCHHqHhE",
     tags: ["hair", "spa"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -294,7 +301,7 @@ export const salons = [
     hours: { opens: "10:00", closes: "18:00" },
     socials: { instagram: null, facebook: null, website: null },
     googleMapsUrl:
-      "https://www.google.com/maps/place/Timeless+Spa+~+Nancy%27s+Body+Clinic",
+      "https://www.google.com/maps/place/?q=place_id:ChIJC7jVsrb5NYwR6MEhLKyyUYA",
     tags: ["spa", "hair"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -312,7 +319,8 @@ export const salons = [
     openStatus: "unknown",
     hours: { opens: null, closes: null },
     socials: { instagram: null, facebook: null, website: null },
-    googleMapsUrl: "https://www.google.com/maps/place/Hair+and+Nails+by+Kesha",
+    googleMapsUrl:
+      "https://www.google.com/maps/place/?q=place_id:ChIJD6mZ4NLwNYwRg0Fw7giKB78",
     tags: ["hair", "nails"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -330,7 +338,8 @@ export const salons = [
     openStatus: "closed",
     hours: { opens: "10:00", closes: "18:00" },
     socials: { instagram: null, facebook: null, website: null },
-    googleMapsUrl: "https://www.google.com/maps/place/868+Studio+Keratin+Bar",
+    googleMapsUrl:
+      "https://www.google.com/maps/place/?q=place_id:ChIJZxfaqO_5NYwR7EB-9cMc_4A",
     tags: ["hair", "spa"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -349,7 +358,7 @@ export const salons = [
     hours: { opens: "09:00", closes: "18:00" },
     socials: { instagram: null, facebook: null, website: null },
     googleMapsUrl:
-      "https://www.google.com/maps/place/Polish+Me+Beauty+Spa+%26+Educational+Institute",
+      "https://www.google.com/maps/place/?q=place_id:ChIJ6TgIJYD5NYwRZqEWKmrVHm0",
     tags: ["nails", "spa", "beauty"],
     verified: false,
     lastUpdated: "2026-02-06",
@@ -367,7 +376,8 @@ export const salons = [
     openStatus: "closed",
     hours: { opens: "09:00", closes: "18:00" },
     socials: { instagram: null, facebook: null, website: null },
-    googleMapsUrl: "https://www.google.com/maps/place/Bliss+Day+Spa+And+Salon",
+    googleMapsUrl:
+      "https://www.google.com/maps/place/?q=place_id:ChIJi_mreW75NYwRG338ChL3qU8",
     tags: ["spa", "hair"],
     verified: false,
     lastUpdated: "2026-02-06",
